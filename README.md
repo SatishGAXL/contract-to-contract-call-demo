@@ -72,7 +72,9 @@ npm run development
 ## Frontend Features
 
 - Get Data: Retrieves the stored string from ContractA through ContractB
+  ![Get Data](flow_images/get.png)
 - Set Data: Updates the stored string in ContractA through ContractB
+  ![Set Data](flow_images/set.png)
 - Transaction tracking with explorer links
 - Real-time status updates
 
