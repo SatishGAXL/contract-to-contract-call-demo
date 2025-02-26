@@ -1,6 +1,6 @@
 from algosdk import account, mnemonic
 
-# create an account
+# create an account 
 private_key, address = account.generate_account()
 
 # get the mnemonic associated with the account
