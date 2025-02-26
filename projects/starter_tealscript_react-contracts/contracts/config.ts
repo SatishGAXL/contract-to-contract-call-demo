@@ -1,9 +1,6 @@
 import { config } from 'dotenv';
 config({path: __dirname + `/../.env`});
 
-console.log(process.env.ALGOD_PORT);
-console.log(process.env.ALGOD_URL); 
-
 if(!process.env.ALGOD_PORT || !process.env.ALGOD_URL || !process.env.ALGOD_TOKEN || !process.env.WALLET_MNEMONIC) {
   throw new Error('Missing environment variables. Please make sure to create a .env file in the root directory of the project and add the following variables: ALGOD_PORT, ALGOD_URL, ALGOD_TOKEN, WALLET_MNEMONIC')
 }
